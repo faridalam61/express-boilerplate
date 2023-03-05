@@ -17,6 +17,7 @@ body{
     color: #C9D1CD;
     margin-bottom: 50px;
     text-align: center;
+    font-weight: 500;
 }
 /* Main container */
 .container{
@@ -35,8 +36,8 @@ body{
     border: 1px solid #dededebe;
     box-shadow: 3px 3px 10px #dededeac;
     border-radius: 10px;
-    width: 85%;
-    padding: 20px;
+    width: 90%;
+    padding: 15px;
     /* padding: 20px; */
     margin-bottom: 30px;
     display: flex;
@@ -44,9 +45,12 @@ body{
 }
 
 /* Time counter */
-.time{font-weight: bold;
-    font-size: 30px;
-    color:#ED4344;}
+.time{
+    font-weight: bold;
+    font-size: 35px;
+    color:#ED4344;
+    font-weight: 500;
+}
 /* Buttons Styles */
 .buttons{
     display: grid;
@@ -77,6 +81,7 @@ background:#ED4344;
     font-size: 16px;
     color: #C9D1CD;
     margin: 80px 0 20px;
+    font-weight: 400;
 }
 @media screen and (max-width:577px) {
     .container{
